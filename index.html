@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lanchonete - Caixa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Lanchonete da Praça</h1>
+  </header>
+
+  <main>
+    <section id="produtos">
+      <h2>Produtos</h2>
+      <button onclick="adicionarProduto('Coxinha', 6)">Coxinha - R$6</button>
+      <button onclick="adicionarProduto('Refrigerante', 8)">Refrigerante - R$8</button>
+      <button onclick="adicionarProduto('Suco', 5)">Suco - R$5</button>
+      <button onclick="adicionarProduto('Bolo no pote', 10)">Bolo no pote - R$10</button>
+    </section>
+
+    <section id="comanda-atual">
+      <h2>Comanda Atual</h2>
+      <ul id="lista-comanda"></ul>
+      <p>Total: R$ <span id="total">0</span></p>
+      <button onclick="gerarComanda()">Gerar Comanda</button>
+    </section>
+
+    <section id="comandas">
+      <h2>Comandas Abertas</h2>
+      <div id="lista-comandas"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
