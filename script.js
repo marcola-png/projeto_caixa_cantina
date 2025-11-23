@@ -11,7 +11,7 @@
   ];
 
   const CATALOGO = [
-    { categoria: 'Salgados e Bolos', nome: 'Coxinha de Frango', preco: 10, img: 'img/coxinha.jpg' },
+    { categoria: 'Salgados e Bolos', nome: 'Coxinha de Frango', preco: 10, img: 'coxinha.jpg' },
     { categoria: 'Salgados e Bolos', nome: 'Bolinho de Carne', preco: 10, img: 'img/carne.jpg' },
     { categoria: 'Salgados e Bolos', nome: 'Pão de Queijo', preco: 5, img: 'img/pao-de-queijo.jpg' },
     { categoria: 'Salgados e Bolos', nome: 'Risole', preco: 10, img: 'img/risolis.jpg' },
